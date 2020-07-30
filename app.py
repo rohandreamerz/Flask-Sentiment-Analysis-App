@@ -5,6 +5,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from nltk.corpus import stopwords
 
 nltk.download('stopwords')
+nltk.download('punkt')
 
 set(stopwords.words('english'))
 app = Flask(__name__)
